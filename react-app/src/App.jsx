@@ -13,8 +13,6 @@ function App() {
 <Header/>
 <Articulo/>
 <Footer/>
-
-
 </div>
   )
 }
