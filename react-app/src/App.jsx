@@ -12,7 +12,7 @@ function App() {
   return (
 <div>
 <Header/>
-<Card/>
+<Card body={"hola mundo"} />
 <Articulo/>
 <Footer/>
 </div>

@@ -1,9 +1,10 @@
 import { Fragment } from "react";
 
-function Card() {
-
+function Card(props) {
+const { body } = props;
     return (
-    <div className="card"
+    <div 
+    className="card"
      style={{
       width: "350px",}}>
     <div className="card-body"> Puedes hacer tu reserva. </div>
